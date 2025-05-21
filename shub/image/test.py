@@ -33,7 +33,7 @@ LIST_SPIDERS_DEPRECATED_WARNING = (
     "please review and update your code."
 )
 IMAGE_TOO_LARGE_WARNING = (
-    "Custom image for the project is too large (more than 3GB), it can lead "
+    "Custom image for the project is too large (more than 5GB), it can lead "
     "to various performance issues when running it in Scrapy Cloud. "
     "Please reduce the image size or ask support team for help "
     "(one of the recommended articles to start with is "
