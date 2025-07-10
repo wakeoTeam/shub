@@ -18,7 +18,7 @@ the test command is also executed automatically as a part of build command
 in its end (if you do not provide -S/--skip-tests parameter explicitly).
 """
 
-IMAGE_SIZE_LIMIT = 5 * 1024 * 1024 * 1024  # 5GB
+IMAGE_SIZE_LIMIT = 6 * 1024 * 1024 * 1024  # 6GB
 CONTRACT_CMD_NOT_FOUND_WARNING = (
     "Command %s is not found in the image. "
     "Please make sure you provided it according to Scrapy Cloud contract "
